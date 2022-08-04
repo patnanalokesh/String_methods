@@ -261,3 +261,135 @@
 # print(h[1])
 # print(h[0])
 # print(h[2])
+
+
+# v=bin(3)
+# print(v,type(v))
+# a=0b1111111111
+# print(a,type(a))
+# j=0B101
+# print(j,type(j))
+
+# print(bin(245))
+# print(0b11110101)
+# print(0B11110101)
+
+# g=oct(2455232)
+# print(g,type(g))
+# f=oct(24)
+# print(f,type(f))
+# print(0o30)
+# print(0O30)
+
+# h=hex(32)
+# print(h,type(h))
+# print(0x20)
+# print(0X20)
+
+# print(0xa)
+# print(0xA)
+# print(0xb)
+# print(0xB)
+# print(0xf)
+# print(0xF)
+# p="python programming"
+# print(p.swapcase())
+
+# c=5 ;d=44
+# print(d)
+# del c,d
+# print(c,c)
+
+# print("Buy this for Rs.{d} or this for Rs.{ab}".format(d=52,ab=42))
+
+# a='L\tO\tK\tI'
+# print(a.expandtabs(0))
+# print(a.expandtabs(1))
+# print(a.expandtabs(2))
+# print(a.expandtabs(3))
+# print(a.expandtabs(4))
+# print(a.expandtabs(5))
+# print(a.expandtabs(6))
+# print(a.expandtabs(7))
+# print(a.expandtabs(8))
+# print(a.expandtabs())
+# print(a.expandtabs(-1))
+
+# b='hello','python','course'
+# a='prgram'
+# print('-'.join(b))
+# print('&'.join(b))
+# print('$'.join('prgrm'))
+
+# k="hello lokesh"
+# b=k.maketrans('l','#')
+# print(k.translate(b))
+
+# l={}
+# print(l,type(l))
+# g={1:'hi',2:'bye'}
+# print(g[2])
+
+# r='hello\nlokesh'
+# print(r)
+
+# f="hello\npython\ncore\nprogramming"
+# print(f)
+# h=f.splitlines()
+# print(h,type(h))
+# # print(h[4])
+# print(h[3])
+# print(h[1])
+# print(h[0])
+# print(h[2])
+
+# h="HelloWelcome to Josh Innovations"
+# g=h.split()
+# print(g)
+# print(g[0][::-1])
+
+# f="HelloWelcome to python World"
+# print(f.split(' '))
+# print(f.split(" "))
+# print(f.split())
+# print(f.split("")) #ValueError: empty separator
+
+# a=6,7,5
+# print(a,type(a))#  'tuple'
+# a=[int(x) for x in input('Enter numbers:').split()]
+# print(a,type(a))
+# print(sum(a))
+# print("The sum is"+' '+str(sum(a)))
+# print("The sum is",sum(a))
+
+# v="Hello Welcome to JoshInnovations"
+# print(v.split()) #here replacing the space with coma(,).
+
+# h="Hello:Welcome: to :Josh: Innovations"
+# print(h.split(":")) # here replacing (:) to coma(,).
+
+# n="python#c#java#R#Dart"
+# print(n.split("#")) # here replacing (#) to coma(,).
+
+# a='hi\bharath'
+# print(a) # hharath --->here {\b} is called as backspace.
+
+# v=r"hello\bollywood"
+# print(v,type(v)) # hello\bollywood and str method.
+
+# l="Hello!\nwelcome\nto Josh to\nInnovations"
+# print(l.splitlines()) # here in the place of (\n) replacing to coma(,)
+
+# k="hello!\nWelcome \n to\n Josh\nInnovations"
+# print(k.splitlines(True)) # ['hello!\n', 'Welcome \n', ' to\n', ' Josh\n', 'Innovations'].
+
+# g="hello"
+# print(g.zfill(8)) # here actual width is 5 but we wrote extra width value so here number of zeros will increase.
+
+# d="Hey! How are you Doing?"
+# print(d.partition("are")) # ('Hey! How ', 'are', ' you Doing?') here 'are' is seperated to one group and remaining are seperated to one group.
+
+# q="Hey! How are you Doing?"  #('Hey! How are ', 'you', ' Doing?')
+# r=q.partition("you") #Hey! How are 
+# print(r)
+# print(r[0])
