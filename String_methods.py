@@ -71,3 +71,193 @@
 # print(w.count('o'))
 # h="python learning"
 # print(h.replace('learning', 'programming'))
+# print(h.replace('python','course'))
+# print(dir(str))
+# name='lokesh is cool'
+# print(len(name))
+# print(name.center(50))
+# print(name.center(50,'@'))
+# print(name.center(50,'#'))
+# print(name.center(50,'$'))
+# name='lalith sai'
+# print(type(name))
+# n=name.encode()
+# print(n)
+# print(n.decode())
+# t='heLLo sAi'
+# print(t.title())
+# print(t.capitalize())
+# print(t.istitle())
+# print(t.isupper())
+# print(t.islower())
+# print(t.startswith(''))
+# print(t.startswith('h'))
+# print(t.startswith('s'))
+# print(t.endswith('o'))
+# print(t.endswith(''))
+# print(t.endswith('i'))
+# v=''
+# g='           '
+# k='      l'
+# print(v.isspace())
+# print(g.isspace())
+# print(k.isspace())
+# d="hello pythonlom"
+# print(d.index('l'))
+# # print(d.index('f'))
+# print(d.index('l',6))
+# print(d.index('l',3))
+# f="      hello lokesh    .     "
+# print(f.strip())
+# print(f.lstrip())
+# print(f.rstrip())
+# g="220"
+# print(g.zfill(10))
+# f='hello'
+# print(f.zfill(6))
+# j='josh innovations'
+# print(j.upper())
+# d='hr management'
+# print(d.title())
+# a='hello world'
+# print(a.swapcase()) # here all the lower case are convert into upper case and all the upper case is convert into lower case.
+# a="hello","python","pro"
+# print(a,type(a))
+# b=' world '.join(a)
+# print(b)
+# print("Hello","python",sep=" world ")
+# c="hey"
+# h="*".join(c)
+# print(h)
+
+# g="Python Programming"
+# # print(g.removeprefix('p'))
+# # print(g.removeprefix('P'))
+# # print(g.removeprefix('Py'))
+# print(g.removesuffix('g'))
+# print(g.removesuffix('ing'))
+# print(g.removesuffix('thon'))
+
+# a="hello python"
+# print(a.isalnum())
+# b="hellopython"
+# print(b.isalnum())
+# c="hellopython89"
+# print(c.isalnum())
+# d="core python"
+# print(d.isalpha())
+# e="corepython"
+# print(e.isalpha())
+# f="corepython34"
+# print(f.isalpha())
+# g="6"
+# print(g.isalpha())
+# h="L"
+# print(h.isalpha())
+# i=""
+# print(i.isalpha())
+# j=" "
+# print(j.isalpha())
+
+# k="march python"
+# print(k.isascii())
+
+# n=chr(0)
+# p=chr(32)
+# print(n.isspace())
+# print(p.isspace())
+
+# print("hello"+chr(32)+"python")
+# print("hello"+' '+"python")
+# print("hello","python",sep=' ')
+# print("hello","python")
+
+# print(chr(32)+"lokesh")
+# print(chr(0)+"lokesh")
+
+# print(ord('a'))
+# print(ord('z'))
+# print(ord('A'))
+# print(ord('Z'))
+# print(ord('0'))
+# print(ord('9'))
+# print(ord(' '))
+# print(ord('!'))
+
+# v=bin(0)
+# print(v,type(v))
+# a=0b101
+# print(a,type(a))
+# j=0B101
+# print(j,type(j))
+
+# print(bin(24))
+# print(0b10111)
+# print(0B10111)
+
+# f=oct(24)
+# print(f,type(f))
+# print(0o30)
+# print(0O30)
+
+# h=hex(32)
+# print(h,type(h))
+# print(0x20)
+# print(0X20)
+
+# print(0xa)
+# print(0xA)
+# print(0xb)
+# print(0xB)
+# print(0xf)
+# print(0xF)
+# p="python programming"
+# print(p.swapcase())
+
+# c=5 ;d=44
+# print(d)
+# del c,d
+# print(c,c)
+
+# print("Buy this for Rs.{d} or this for Rs.{ab}".format(d=52,ab=42))
+
+# a='L\tO\tK\tI'
+# print(a.expandtabs(0))
+# print(a.expandtabs(1))
+# print(a.expandtabs(2))
+# print(a.expandtabs(3))
+# print(a.expandtabs(4))
+# print(a.expandtabs(5))
+# print(a.expandtabs(6))
+# print(a.expandtabs(7))
+# print(a.expandtabs(8))
+# print(a.expandtabs())
+# print(a.expandtabs(-1))
+
+# b='hello','python','course'
+# a='prgram'
+# print('-'.join(b))
+# print('&'.join(b))
+# print('$'.join('prgrm'))
+
+# k="hello lokesh"
+# b=k.maketrans('l','#')
+# print(k.translate(b))
+
+# l={}
+# print(l,type(l))
+# g={1:'hi',2:'bye'}
+# print(g[2])
+
+# r='hello\nlokesh'
+# print(r)
+
+# f="hello\npython\ncore\nprogramming"
+# print(f)
+# h=f.splitlines()
+# print(h,type(h))
+# # print(h[4])
+# print(h[3])
+# print(h[1])
+# print(h[0])
+# print(h[2])
